@@ -8,8 +8,9 @@ Http Ответ сервера
 ![image](https://github.com/user-attachments/assets/3d6b6889-7bb7-43ec-b879-48cb8b10a3ba)  
 
 ## Задание 2. Создать Service и подключить его к Pod
+Манифест https://github.com/pkostua/kuber-1.2/blob/master/netology-web.yml
 Применение манифеста, поды и сервисы
-![image](https://github.com/user-attachments/assets/0d4cef89-0049-4562-a5e8-0701f000d412)
+![image](https://github.com/user-attachments/assets/0d4cef89-0049-4562-a5e8-0701f000d412)  
 Проброс порта на сервис  
 ```
 kubectl port-forward service/netology-svc 8080:80
